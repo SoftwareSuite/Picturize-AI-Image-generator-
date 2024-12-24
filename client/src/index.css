@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Uncial+Antiqua&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+.italic-text {
+    font-style: italic;
+  }
+
+.placeholder-color {
+    color: #e0e0e0;
+    font-weight: 300;
+}
